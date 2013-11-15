@@ -1,0 +1,6 @@
+download python
+download gae
+get files from  https://github.com/GoogleCloudPlatform/appengine-django-skeleton
+
+manage.py runserver
+manage.py createsuperuser
