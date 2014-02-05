@@ -14,6 +14,7 @@ SITE_NAME = 'Badcomputering'
 SITE_DESCRIPTION = 'computering badly'
 SITE_COPYRIGHT = ''
 
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 SECRET_KEY = '=r-$b*8hglm+858&9t043hlm6-&6-3d3vfc4((7yd0dbrakhvi'
 
 INSTALLED_APPS = (
@@ -76,6 +77,14 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 TEST_RUNNER = 'djangotoolbox.test.CapturingTestSuiteRunner'
 
 STATIC_URL = '/static/'
+# Additional directories which hold static files
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, "static"),
+    ]
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    ]
 
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'templates'),)
 

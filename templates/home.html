@@ -25,6 +25,11 @@ If you have an existing Django project that you'd like to use with a non-relatio
 If you search for reusable apps that work with Django-nonrel here's a list to get you started:
 </p>
 
+<div ng-app="sampleApp">
+    <input type="text" ng-model="sample" placeholder="start">
+    <h1>{[{sample}]}</h1>
+</div>
+
 <ul>
   <li><a href="https://github.com/django-nonrel/django-dbindexer">django-dbindexer</a>: Emulates extra database features beyond its native API (filters like __iexact, __endswith and simple JOINs); those features are used by some Django modules (admin, auth)</li>
   <li><a href="https://github.com/django-nonrel/django-permission-backend-nonrel">django-permission-backend-nonrel</a>: Authentication backend that works with non-relation databases</li>
@@ -39,3 +44,15 @@ If you search for reusable apps that work with Django-nonrel here's a list to ge
 Finally, take a look at the apps listed on <a href="http://djangopackages.com/">Django Packages</a>. Many simple Django apps (e.g., <a href="https://bitbucket.org/ubernostrum/django-registration">django-registration</a>) should work unmodified. If you want to use <a href="http://robhudson.github.com/django-debug-toolbar/">django-debug-toolbar</a> you need to disable the SQLDebugPanel in your settings.
 </p>
 {% endblock %}
+
+{% block js %}
+    <script>
+        var app = angular.module('sampleApp', []);
+        app.config(function($interpolateProvider) {
+            $interpolateProvider.startSymbol('{[{');
+            $interpolateProvider.endSymbol('}]}') ;
+        })
+
+    </script>
+{% endblock %}
+
