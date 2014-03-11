@@ -17,6 +17,10 @@ SITE_COPYRIGHT = ''
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 SECRET_KEY = '=r-$b*8hglm+858&9t043hlm6-&6-3d3vfc4((7yd0dbrakhvi'
 
+ALLOWED_HOSTS = [
+    '.badcomputering.com'
+]
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -31,6 +35,7 @@ INSTALLED_APPS = (
     'codecamp',
     'disqus',
     'djangotoolbox',
+    'tastypie',
     'mediagenerator',
     'simplesocial',
     'autoload',

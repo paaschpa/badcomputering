@@ -67,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1802">
+            <state line="20" column="23" selection-start="695" selection-end="695" vertical-scroll-proportion="0.3554007" vertical-offset="34" max-vertical-offset="1887">
               <folding>
                 <element signature="e#190#233#0" expanded="true" />
               </folding>
@@ -78,43 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/urls.py">
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="551" selection-end="551" vertical-scroll-proportion="0.3554007" vertical-offset="0" max-vertical-offset="861">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codecamp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codecamp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="65" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codecamp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="67" column="1" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -138,13 +105,14 @@
         <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/codecamp/templates/codecamp/base.html" />
         <option value="$PROJECT_DIR$/codecamp/admin.py" />
-        <option value="$PROJECT_DIR$/codecamp/api.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/codecamp/models.py" />
         <option value="$PROJECT_DIR$/codecamp/views.py" />
         <option value="$PROJECT_DIR$/codecamp/urls.py" />
+        <option value="$PROJECT_DIR$/codecamp/api.py" />
         <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -215,6 +183,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="badcomputering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badcomputering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badcomputering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecamp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,16 +516,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codecamp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codecamp/templates/codecamp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="98" selection-end="98" vertical-scroll-proportion="0.07953216" vertical-offset="0" max-vertical-offset="855" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="65307" selection-start="65477" selection-end="65477" vertical-scroll-proportion="0.11751152" vertical-offset="0" max-vertical-offset="868" />
@@ -587,18 +559,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#190#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codecamp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="11" column="65" selection-start="386" selection-end="386" vertical-scroll-proportion="0.21718931" vertical-offset="0" max-vertical-offset="861">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -607,7 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codecamp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="25" column="16" selection-start="654" selection-end="654" vertical-scroll-proportion="0.49361208" vertical-offset="0" max-vertical-offset="861">
           <folding />
         </state>
       </provider>
@@ -628,9 +591,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codecamp/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codecamp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state line="5" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.09872241" vertical-offset="0" max-vertical-offset="861">
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -639,9 +611,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="551" selection-end="551" vertical-scroll-proportion="0.3554007" vertical-offset="0" max-vertical-offset="861">
+        <state line="22" column="54" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="1" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="695" selection-end="695" vertical-scroll-proportion="0.3554007" vertical-offset="34" max-vertical-offset="1887">
+          <folding>
+            <element signature="e#190#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
