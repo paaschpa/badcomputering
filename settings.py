@@ -28,6 +28,8 @@ INSTALLED_APPS = (
     'urlrouter',
     'minicms',
     'blog',
+    'codecamp',
+    'tastypie',
     'disqus',
     'djangotoolbox',
     'mediagenerator',
@@ -69,6 +71,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.media',
     'django.core.context_processors.static',
+    #'django.contrib.messages.context_processors.messages',
     'minicms.context_processors.cms',
 )
 
@@ -86,7 +89,12 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
     ]
 
+TEMPLATE_LOADERS = ('django.template.loaders.filesystem.Loader',
+                    'django.template.loaders.app_directories.Loader')
+
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'templates'),)
+
+ADMIN_MEDIA_PREFIX = '/media/admin/'
 
 ROOT_URLCONF = 'urls'
 

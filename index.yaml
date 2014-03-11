@@ -53,6 +53,21 @@ indexes:
   - name: __key__
     direction: desc
 
+- kind: codecamp_event
+  properties:
+  - name: __key__
+    direction: desc
+
+- kind: codecamp_session
+  properties:
+  - name: __key__
+    direction: desc
+
+- kind: codecamp_speaker
+  properties:
+  - name: __key__
+    direction: desc
+
 - kind: minicms_page
   properties:
   - name: url

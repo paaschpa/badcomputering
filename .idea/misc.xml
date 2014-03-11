@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="IdProvider" IDEtalkID="050C449535FA701F0EA26B4A633B2645" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.6 virtualenv at C:\dev\venvs\badComputering" project-jdk-type="Python SDK" />
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
