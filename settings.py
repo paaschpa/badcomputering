@@ -29,7 +29,6 @@ INSTALLED_APPS = (
     'minicms',
     'blog',
     'codecamp',
-    'tastypie',
     'disqus',
     'djangotoolbox',
     'mediagenerator',

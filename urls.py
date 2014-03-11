@@ -1,5 +1,7 @@
 from django.conf.urls.defaults import *
 from django.contrib import admin
+from django.views.generic import TemplateView
+from codecamp import views
 import dbindexer
 
 handler500 = 'djangotoolbox.errorviews.server_error'
@@ -12,7 +14,8 @@ dbindexer.autodiscover()
 
 urlpatterns = patterns('',
     ('^_ah/warmup$', 'djangoappengine.views.warmup'),
-    ('^$', 'django.views.generic.simple.direct_to_template', {'template': 'home.html'}),
+    ('^$', TemplateView.as_view(template_name="home.html")),
     ('^codecamp/$', include('codecamp.urls')),
+    url(r'^codecamp/api/$', views.speaker_json, name='speaker_json'),
     ('^admin/', include(admin.site.urls)),
 )

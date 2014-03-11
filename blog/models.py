@@ -22,7 +22,7 @@ class Blog(models.Model):
     description = models.CharField(max_length=500, blank=True,
         help_text='This will also be your feed description.')
     feed_redirect_url = models.URLField('Feed redirect URL',
-        verify_exists=False, blank=True,
+        #verify_exists=False, blank=True,
         help_text='Optional (use this to publish feeds via FeedBurner)<br />'
                   'Example: http://feeds.feedburner.com/YourFeedBurnerID<br />'
                   'If you use FeedBurner this will also enable FeedFlares.')
