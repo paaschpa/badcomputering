@@ -1,6 +1,13 @@
 {% extends 'codecamp/base.html' %}
         {% block content %}
+<div ng-app="codecampApp">
 
 
-        <div class="container" style="padding: 40px 15px">STUFF</div>
+    <div ng-view></div>
+</div>
+        {% endblock %}
+
+
+        {% block js %}
+            <script src="{{ STATIC_URL }}app/codecamp.js"></script>
         {% endblock %}
